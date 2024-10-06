@@ -35,17 +35,17 @@ else
 fi
 
 if [ ! -z "$script_friendly_name" ]; then
-  NAME=godot
+  NAME=redot
 else
   if [ ! -z "$godot_version" ]; then
-    NAME=godot-$godot_version
+    NAME=redot-$godot_version
   else
-    NAME=godot-$HEAD
+    NAME=redot-$HEAD
   fi
 fi
 
 CURDIR=$(pwd)
-TMPDIR=$(mktemp -d -t godot-XXXXXX)
+TMPDIR=$(mktemp -d -t redot-XXXXXX)
 
 echo "Generating tarball for revision $HEAD with folder name '$NAME'."
 echo
