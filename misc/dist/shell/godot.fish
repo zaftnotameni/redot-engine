@@ -106,13 +106,13 @@ complete -c redot -l check-only -d "Only parse for errors and quit (use with --s
 complete -c redot -l export-release -d "Export the project in release mode using the given preset and output path" -x
 complete -c redot -l export-debug -d "Export the project in debug mode using the given preset and output path" -x
 complete -c redot -l export-pack -d "Export the project data only as a PCK or ZIP file using the given preset and output path" -x
-complete -c redot -l convert-3to4 -d "Converts project from Godot 3.x to Godot 4.x"
-complete -c redot -l validate-conversion-3to4 -d "Shows what elements will be renamed when converting project from Godot 3.x to Godot 4.x"
+complete -c redot -l convert-3to4 -d "Converts project from Redot 3.x to Redot 4.x"
+complete -c redot -l validate-conversion-3to4 -d "Shows what elements will be renamed when converting project from Redot 3.x to Redot 4.x"
 complete -c redot -l doctool -d "Dump the engine API reference to the given path in XML format, merging if existing files are found" -r
 complete -c redot -l no-docbase -d "Disallow dumping the base types (used with --doctool)"
 complete -c redot -l build-solutions -d "Build the scripting solutions (e.g. for C# projects)"
 complete -c redot -l dump-gdextension-interface -d "Generate GDExtension header file 'gdextension_interface.h' in the current folder. This file is the base file required to implement a GDExtension"
-complete -c redot -l dump-extension-api -d "Generate JSON dump of the Godot API for GDExtension bindings named 'extension_api.json' in the current folder"
+complete -c redot -l dump-extension-api -d "Generate JSON dump of the Redot API for GDExtension bindings named 'extension_api.json' in the current folder"
 complete -c redot -l benchmark -d "Benchmark the run time and print it to console"
 complete -c redot -l benchmark-file -d "Benchmark the run time and save it to a given file in JSON format" -x
 complete -c redot -l test -d "Run all unit tests; run with '--test --help' for more information" -x

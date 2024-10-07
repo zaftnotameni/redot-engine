@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ ! -e "version.py" ]; then
-  echo "This script should be ran from the root folder of the Godot repository."
+  echo "This script should be ran from the root folder of the Redot repository."
   exit 1
 fi
 
@@ -11,7 +11,7 @@ while getopts "h?sv:g:" opt; do
     echo "Usage: $0 [OPTIONS...]"
     echo
     echo "  -s script friendly file name (godot.tar.gz)"
-    echo "  -v godot version for file name (e.g. 4.0-stable)"
+    echo "  -v redot version for file name (e.g. 4.0-stable)"
     echo "  -g git treeish to archive (e.g. master)"
     echo
     exit 1
